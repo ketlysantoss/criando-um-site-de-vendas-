@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Loja de Vestidos | E-commerce Fashion</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header class="main-header">
+        <div class="container header-content">
+            <h1 class="logo">VestiDelux</h1>
+            <div class="search-bar">
+                <input type="text" id="search-input" placeholder="Buscar modelos, cores e estilos...">
+                <button id="search-button">Buscar</button>
+            </div>
+            <nav class="user-nav">
+                <a href="#">Entrar</a>
+                <a href="#" id="cart-icon">🛒 Carrinho (<span id="cart-count">0</span>)</a>
+            </nav>
+        </div>
+    </header>
+
+    <main class="container">
+        <h2>Vestidos em Destaque</h2>
+        
+        <section class="product-grid" id="product-list">
+            
+            <div class="product-card" data-id="101" data-name="Vestido Midi Estampado Floral" data-price="149.90">
+                <img src="https://via.placeholder.com/250x200/ff99aa/FFFFFF?text=Vestido+Floral" alt="Vestido Midi Estampado Floral" class="product-image">
+                <h4 class="product-title">Vestido Midi Estampado Floral</h4>
+                <p class="product-price">R$ 149,90</p>
+                <button class="add-to-cart-btn">Comprar</button>
+            </div>
+
+            <div class="product-card" data-id="102" data-name="Vestido Tubinho Curto Preto Básico" data-price="99.50">
+                <img src="https://via.placeholder.com/250x200/333333/FFFFFF?text=Vestido+Preto" alt="Vestido Tubinho Curto Preto Básico" class="product-image">
+                <h4 class="product-title">Vestido Tubinho Curto Preto Básico</h4>
+                <p class="product-price">R$ 99,50</p>
+                <button class="add-to-cart-btn">Comprar</button>
+            </div>
+
+            <div class="product-card" data-id="103" data-name="Vestido Longo de Festa em Tule Vinho" data-price="299.00">
+                <img src="https://via.placeholder.com/250x200/800020/FFFFFF?text=Vestido+Festa" alt="Vestido Longo de Festa em Tule Vinho" class="product-image">
+                <h4 class="product-title">Vestido Longo de Festa em Tule Vinho</h4>
+                <p class="product-price">R$ 299,00</p>
+                <button class="add-to-cart-btn">Comprar</button>
+            </div>
+
+            <div class="product-card" data-id="104" data-name="Chemise Vestido em Linho Branco Casual" data-price="185.90">
+                <img src="https://via.placeholder.com/250x200/ffffff/000000?text=Vestido+Branco" alt="Chemise Vestido em Linho Branco Casual" class="product-image">
+                <h4 class="product-title">Chemise Vestido em Linho Branco Casual</h4>
+                <p class="product-price">R$ 185,90</p>
+                <button class="add-to-cart-btn">Comprar</button>
+            </div>
+            
+        </section>
+        
+        <section class="cart-modal" id="cart-modal">
+            <h3>Seu Carrinho</h3>
+            <div id="cart-items">
+                </div>
+            <p class="cart-total">Total: R$ <span id="cart-total-value">0,00</span></p>
+            <button class="close-cart" id="close-cart">Continuar Comprando</button>
+            <button class="checkout-btn">Finalizar Compra</button>
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
