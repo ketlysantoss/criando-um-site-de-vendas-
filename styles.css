@@ -1,9 +1,9 @@
 /* Variáveis de Cor */
 :root {
-    --primary-color: #ffe600; /* Amarelo (Estilo ML) */
+    --primary-color: #a49afd; /* Amarelo (Estilo ML) */
     --secondary-color: #3483fa; /* Azul (Ações) */
     --text-color: #333;
-    --bg-color: #ededed;
+    --bg-color: #0d49ec34;
 }
 
 /* Reset Básico */
