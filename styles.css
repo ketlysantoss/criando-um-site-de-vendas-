@@ -1,7 +1,7 @@
 /* Variáveis de Cor */
 :root {
     --primary-color: #a49afd; /* Amarelo (Estilo ML) */
-    --secondary-color: #3483fa; /* Azul (Ações) */
+    --secondary-color: #5d9eff; /* Azul (Ações) */
     --text-color: #333;
     --bg-color: #0d49ec34;
 }
@@ -163,7 +163,8 @@ h2 {
     display: flex;
     justify-content: space-between;
     padding: 10px 0;
-    border-bottom: 1px dashed #ccc;
+    border-bottom: 1px dashed #
+            </div>ccc;
 }
 
 .cart-total {
